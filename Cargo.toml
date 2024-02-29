@@ -6,7 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = { version = "0.13.0", features = ["dynamic_linking"] }
+# CHANGEME Change Bevy version between 0.13 and 0.12 to see the effects
+bevy = { version = "0.13", features = ["dynamic_linking"] }
 
 # Enable a small amount of optimization in debug mode
 [profile.dev]
